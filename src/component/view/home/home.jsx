@@ -43,27 +43,25 @@ const Home = () => {
 
             <div
   className="
-    flex flex-col justify-center items-center gap-3
+    flex flex-col md:flex justify-center items-center gap-3
     pt-[100px]
     font-inter font-bold text-white
-    text-[42px]
+        text-[30px] lg:text-[42px]
     xl:text-[52px]
-    2xl:text-[64px]
-  "
->
+    2xl:text-[64px]">
   <span>UNIQUE, LOCAL, SMALL</span>
   <span className="text-[#E9482B]">GROUPS</span>
 </div>
-            <p className="text-white text-[24px]  font-medium font-inter text-center pt-[20px]">
+            <p className="text-white text-[20px] lg:text-[24px]  font-medium font-inter text-center pt-[20px]">
               Tours that show you something new.
             </p>
             <div className="flex justify-center pt-[30px] gap-[10px]">
               <button className="text-white text-[18px] font-semibold bg-[#1E365C] hover:bg-[#C0C0C0]
-     py-[10px] px-[30px] rounded-full font-inter">
+       py-[7px] px-[20px] lg:py-[10px] lg:px-[30px] rounded-full font-inter">
                 Visit 2024 Tours
               </button>
               <button className="text-white text-[18px] font-semibold bg-[#E9482B] hover:bg-[#C0C0C0]
-     py-[10px] px-[30px] rounded-full font-inter ">
+       py-[7px] px-[20px] lg:py-[10px] lg:px-[30px] rounded-full font-inter ">
                 Visit 2025 Tours
               </button>
             </div>
@@ -83,19 +81,19 @@ const Home = () => {
     <div className="flex min-h-[500px] flex-col justify-center lg:flex-row lg:items-center lg:gap-10">
 
       {/* Text Content */}
-      <div className="w-full py-12 lg:w-1/2 lg:py-0">
-        <p className="font-inter text-[36px] font-black leading-[1.05] text-white sm:text-[32px] lg:text-[48px]">
+      <div className="w-full py-12 lg:w-1/2 lg:py-0 text-center lg:text-left">
+        <p className="font-inter text-[34px] lg:text-[36px] font-black leading-[1.05] text-white sm:text-[30px] lg:text-[48px]">
           Sustainable and <br className="hidden sm:block" />
           responsible travel
         </p>
 
-        <p className="pt-[20px] lg:pt-3 font-inter text-[20px] font-medium leading-[1.3] text-white sm:text-[22px] lg:text-[24px]">
+        <p className="pt-[20px] lg:pt-3 font-inter text-[16px] lg:text-[20px] font-medium leading-[1.3] text-white sm:text-[22px] lg:text-[24px]">
           We’re fully committed to promoting and offering
           responsible, respectful and sustainable travel experiences
           around the world.
         </p>
 
-        <p className="pt-[20px] lg:pt-3 font-inter text-[15px] font-medium leading-[1.5] text-white sm:text-[16px]">
+        <p className="pt-[20px] lg:pt-3 font-inter text-[13px] lg:text-[15px] font-medium leading-[1.5] text-white sm:text-[16px]">
           We make a point of avoiding mass tourism destinations.
           Instead, we sustainably support local businesses, communities
           and the environment everywhere we go. Every aspect of our trips,
@@ -106,7 +104,7 @@ const Home = () => {
         </p>
 
         <button
-          className="mt-5 rounded-full bg-[#E9482B] px-[30px] py-[10px]
+          className="block mx-auto lg:mx-0 mt-5 rounded-full bg-[#E9482B] px-[30px] py-[10px]
                      font-inter text-[18px] font-semibold text-white
                      transition-colors duration-200 hover:bg-[#C0C0C0]"
         >
