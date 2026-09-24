@@ -43,7 +43,7 @@ const Home = () => {
 
             <div
   className="
-    sm:flex flex-col md:flex justify-center items-center gap-3
+    flex flex-col justify-center items-center gap-3
     pt-[100px]
     font-inter font-bold text-white
     text-[42px]
