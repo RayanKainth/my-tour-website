@@ -11,7 +11,7 @@ const Tours = () => {
     <>
     <div className="container">
       <div className="pt-[100px]">
-        <p className="font-inter text-[128px] text-[#2D2D2D] font-bold leading-none">
+        <p className="font-inter text-[64px] lg:text-[128px] text-[#2D2D2D] font-bold leading-none">
           2024
           <br />
           TOURS
