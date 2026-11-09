@@ -6,11 +6,11 @@ const Moretourprops = ({more}) => {
     return ( 
  
         <>
-        <div className="flex flex-col overflow-hidden rounded-[20px] bg-white shadow-2xl">
+        <div className=" w-full max-w-[488px]  overflow-hidden rounded-[20px] bg-white shadow-2xl">
       <img
         src={more.image}
         alt={more.name}
-        className="w-full h-full object-cover rounded-t-[20px]"
+        className="w-full h-[250px] lg:h-[301px] object-cover rounded-t-[20px]"
       />
       <div className="p-4">
       <p className="text-[#2D2D2D] text-[20px] font-inter font-bold">{more.name}</p>
@@ -40,7 +40,7 @@ const Moretourprops = ({more}) => {
  
  <div className="flex justify-center pt-[25px]">
            <button className=" border border-[#1E365C] rounded-[20px]
-    px-[220px] py-[10px] ">Details</button>
+    w-full max-w-[488px] py-[10px] ">Details</button>
       </div>     
       </div>
     </div>

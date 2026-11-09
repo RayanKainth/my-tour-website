@@ -42,7 +42,7 @@ const Grouptour = () => {
         <span className="text-[34px] lg:text-[48px] font-inter font-bold text-[#E9482B]">GROUP TOURS</span>
         <p className="text-[24px] font-inter">Experience culture, wonder and fun like never before.</p>
      </div>
-     <div className="grid grid-cols-1 gap-[50px] lg:gap-6 sm:px-[100px] md:px-[130px] lg:px-5 pt-[50px] lg:grid-cols-2 xl:grid-cols-3 ">
+     <div className="grid grid-cols-1 gap-[50px] justify-items-center lg:gap-6 sm:px-[100px] md:px-[130px] lg:px-5 pt-[50px] lg:grid-cols-2 xl:grid-cols-3 ">
         {GroupData.map((group) => (
           <GroupCard key={group.id} group={group} />
         ))}

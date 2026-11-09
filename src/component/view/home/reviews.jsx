@@ -14,7 +14,7 @@ const ReviewCard = ({review}) => {
             <img className="max-w-[58px]" src="/assets/images/reviewicon.png" alt="reviewicon-image" />
             <p className="text-[18px] lg:text-[21px] font-inter pt-[20px] text-center"> {review.text}</p>
             <p className="font-inter text-[20px] font-bold pt-[20px]">{review.name}</p>
-            <p className="text-center text-[#D6D6D6] overflow-hidden">_________________________________________________________________</p>
+            <p className="text-center text-[#D6D6D6] overflow-hidden">_____________________________________________________</p>
             <div className="flex gap-2 pt-[10px]">
             <IoLocationOutline className="text-[25px] text-[#E9482B]"/>
             <p className="text-[18px] text-[#8F8F8F]">{review.country}</p>
@@ -28,8 +28,8 @@ const ReviewCard = ({review}) => {
 const Reviews = () => {
     return ( 
        
-        <> 
-        <div className="container">
+        <>  
+        <div className="container max-w-[1480px] mx-auto">
             <div className=" flex items-center lg:flex flex-col pt-[120px]">
             <span className="text-[48px] font-inter font-bold">WHAT OUR CLIENT SAYS</span>
             <span className="text-[48px] font-inter font-bold text-[#E9482B]">ABOUT US</span>

@@ -10,7 +10,7 @@ const Moretours = () => {
     return (
 
          <>
-         <div className="container">
+         <div className="container max-w-[1480px] mx-auto">
          <p className="font-inter text-[60px] flex flex-col gap-[20px] lg:text-[128px] text-[#2D2D2D] font-bold leading-none pt-[100px]">
           2025
           <br className="hidden lg:block" />
@@ -18,7 +18,7 @@ const Moretours = () => {
         </p>
          
     
-<div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-[70px] lg:pt-[30px] gap-[50px] lg:gap-[20px]">
+<div className="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3 pt-[70px] lg:pt-[30px] gap-[50px] lg:gap-[20px]">
         {MoreData.map((more) => (
           <MoretourProps key={more.id} more={more} />
         ))}
