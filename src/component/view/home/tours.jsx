@@ -9,7 +9,7 @@ const ToursData = [
 const Tours = () => {
   return (
     <>
-    <div className="container max-w-[1480px] mx-auto">
+    <div className="container max-w-[1480px] mx-auto max-xl:px-5">
       <div className="pt-[100px]">
         <span className="font-inter text-[64px] lg:text-[128px] text-[#2D2D2D] font-bold leading-none text-[#1E365C]">
           2024

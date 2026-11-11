@@ -10,7 +10,7 @@ const Moretours = () => {
     return (
 
          <>
-         <div className="container max-w-[1480px] mx-auto">
+         <div className="container max-w-[1480px] mx-auto max-xl:px-5">
          <p className="font-inter text-[60px] flex flex-col gap-[20px] lg:text-[128px] text-[#2D2D2D] font-bold leading-none pt-[100px]">
           2025
           <br className="hidden lg:block" />

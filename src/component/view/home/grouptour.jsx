@@ -10,7 +10,8 @@ const GroupData = [
 
 const GroupCard = ({ group }) => {
     return (
-      <div className="max-w-[488px] max-h-[400px] rounded-[20px] bg-white shadow-md flex flex-col items-center pt-[30px] pb-[20px]">
+      <div className="max-w-[488px] max-h-[400px] rounded-[20px]
+       bg-white shadow-md flex flex-col items-center pt-[30px] pb-[20px]">
         <img
           src={group.image}
           alt={group.Name}
@@ -37,12 +38,12 @@ const GroupCard = ({ group }) => {
 const Grouptour = () => {
     return (
      <>
-     <div className="flex flex-col items-center pt-[120px]">
+     <div className="flex flex-col items-center pt-[120px] max-xl:px-5">
         <span className="text-[34px] lg:text-[48px] font-inter font-bold">OUR TRIPS ARE NOT STANDARD</span>
         <span className="text-[34px] lg:text-[48px] font-inter font-bold text-[#E9482B]">GROUP TOURS</span>
         <p className="text-[24px] font-inter">Experience culture, wonder and fun like never before.</p>
      </div>
-     <div className="grid grid-cols-1 gap-[50px] justify-items-center lg:gap-6 sm:px-[100px] md:px-[130px] lg:px-5 pt-[50px] lg:grid-cols-2 xl:grid-cols-3 ">
+     <div className="grid grid-cols-1 gap-[50px] justify-items-center lg:gap-6 sm:px-[100px] md:px-[130px] lg:px-5 pt-[50px] lg:grid-cols-2 xl:grid-cols-3 max-xl:px-5">
         {GroupData.map((group) => (
           <GroupCard key={group.id} group={group} />
         ))}

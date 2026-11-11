@@ -17,7 +17,7 @@ const Navbar = () => {
   const navbarBg = isHome
     ? "absolute top-0 left-0 bg-transparent"
     : isAbout
-    ? "relative bg-white"
+    ? "relative bg-[#1E365C]"
     : "relative bg-[#1E365C]";
 
   // Navigation text color

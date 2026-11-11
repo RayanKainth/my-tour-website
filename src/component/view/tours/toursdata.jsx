@@ -4,7 +4,7 @@ import { IoMdContacts } from 'react-icons/io';
 
 const Toursdata = ({ tour }) => {
   return (
-    <div className="w-full max-w-[448px] mx-auto overflow-hidden">
+    <div className="w-full max-w-[448px] mx-auto max-xl:px-5 overflow-hidden">
 
       {/* Image and badge */}
       <div className="relative w-full">
