@@ -30,7 +30,7 @@ const Reviews = () => {
        
         <>  
         <div className="container max-w-[1480px] mx-auto">
-            <div className=" flex items-center lg:flex flex-col pt-[120px]">
+            <div className=" flex items-center lg:flex flex-col pt-[120px] max-xl:px-5">
             <span className="text-[48px] font-inter font-bold">WHAT OUR CLIENT SAYS</span>
             <span className="text-[48px] font-inter font-bold text-[#E9482B]">ABOUT US</span>
             </div>
